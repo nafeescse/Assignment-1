@@ -1,5 +1,5 @@
 body{
-    margin: 0px 50px;
+    margin: 0px 0px;
 }
 section{
     width: 100%;
@@ -177,3 +177,21 @@ span{
     color: #4070f4;
 
 } */
+
+.footer{
+    background-color: rgb(27, 27, 68);
+    height: 200px;
+}
+
+.footer h1{
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+.footer p{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-size: 15px;
+}
