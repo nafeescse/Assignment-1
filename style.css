@@ -1,3 +1,179 @@
-h1{
-    color: blue;
+body{
+    margin: 0px 50px;
+}
+section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.half-width{
+    width: 50%;
+    
+
+}
+
+.left1{
+    padding: 120px 20px 0px 50px;
+}
+.title{
+    font-size: 50px;
+    padding-left: 5px;
+    border-left: 5px solid crimson;
+
+}
+span{
+    color: crimson;
+
+}
+.left1 p{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bttn{
+    padding: 10px 20px;
+    width: 200px;
+    border-radius: 5px;
+    border: none;
+    background-color: crimson;
+
+}
+
+.bttn a{
+    color: #fff;
+    text-decoration: none;
+}
+.half-width img{
+    width: 80%;
+    padding: 30px 50px;
+    padding-top: 100px;
+
+}
+.mission{
+    width: 100%;
+}
+.mission-title{
+    margin-top: px;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.mission-box{
+    display: flex;
+    padding-top: 0;
+}
+.box-1{
+    padding: 10px 20px;
+    width: 30%;
+    height: 50%;
+    margin: 10px 30px;
+    border-radius: 20px;
+    background-color: lightblue;
+}
+.box-2{
+    width: 30%;
+    height: 50%;
+    padding: 10px 20px;
+    margin: 10px 30px;
+    border-radius: 20px;
+    background-color: lightpink;
+}
+.box-3{
+    width: 30%;
+    height: 50%;
+    padding: 10px 20px;
+    margin: 10px 30px;
+    border-radius: 20px;
+    background-color: lightsalmon;
+}
+.mission-box img{
+    height: 200px;
+    padding-left: 50px ;
+}
+.mission-box h2{
+    font-size: 30px;
+}
+.right{
+    margin: 150px 60px;
+}
+
+.bg{
+    background-image: url(images/shapes/shape-1.png)  ;
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position: 0px 190px;
+    
+}
+
+.bg img{
+    width: 450px;
+    margin-left: 40px;
+}
+.bg-right{
+    background-image: url(images/shapes/shape-1.png)  ;
+    background-repeat: no-repeat;
+    background-size: 180px;
+    background-position: 427px 40px;
+    
+}
+.bg-right img{
+    width: 430px;
+    margin-left: 40px;
+}
+
+.skills-title{
+    font-size: 60px;
+}
+
+.skills__container{
+    row-gap: 2rem;
+    text-align: center;
+    max-width: 1024px;
+    display: flex;
+    grid-template-columns: 100%;
+    grid-column-gap: 2rem;
+    width: calc(100% - 2rem);
+    margin-left: 1rem;
+    margin-right: 2rem;
+}
+.skills__subtitle{
+    margin-bottom: 1rem;
+    font-size: 50px;
+}
+.skills__text{
+    margin-bottom: 2rem;
+}
+.skills__data{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    font-weight: 600;
+    padding: .5rem 1rem;
+    margin-bottom: 2rem;
+    border-radius: .5rem;
+    border-bottom: 5px solid #000;
+    border-width: 70%;
+    box-shadow: 0 4px 25px rgba(14,36,49,.15);
+}
+.skills__icon{
+    font-size: 2rem;
+    margin-right: 1rem;
+    color: #4070f4;
+}
+.skills__names{
+    display: flex;
+    align-items: center;
+    border: none;
+
+
+}
+.skills__name, .skills__percentage{
+    color: #4070f4;
+}
+
+.skills__names img{
+    color: #4070f4;
+
 }
