@@ -1,6 +1,8 @@
 body{
-    margin: 0px 0px;
+    margin: 0 0;
+    padding: 0 0;
 }
+
 section{
     width: 100%;
     height: 100vh;
@@ -14,43 +16,46 @@ section{
 .left1{
     padding: 120px 20px 0px 50px;
 }
+
 .title{
     font-size: 50px;
     padding-left: 5px;
     border-radius: 8px;
     border-left: 5px solid crimson;
-
 }
+
 span{
     color: rgb(225, 54, 88);
-
 }
+
 .left1 p{
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 .bttn{
     padding: 10px 20px;
     width: 200px;
     border-radius: 5px;
     border: none;
     background-color: crimson;
-
 }
 
 .bttn a{
     color: #fff;
     text-decoration: none;
 }
+
 .half-width img{
     width: 80%;
     padding: 30px 50px;
     padding-top: 100px;
-
 }
+
 .mission{
     width: 100%;
 }
+
 .mission-title{
     margin-top: px;
     font-size: 50px;
@@ -62,6 +67,7 @@ span{
     display: flex;
     padding: 0 60px;
 }
+
 .box-1{
     padding: 10px 20px;
     width: 30%;
@@ -70,6 +76,7 @@ span{
     border-radius: 20px;
     background-color: lightblue;
 }
+
 .box-2{
     width: 30%;
     height: 50%;
@@ -78,6 +85,7 @@ span{
     border-radius: 20px;
     background-color: lightpink;
 }
+
 .box-3{
     width: 30%;
     height: 50%;
@@ -86,13 +94,16 @@ span{
     border-radius: 20px;
     background-color: lightsalmon;
 }
+
 .mission-box img{
     height: 200px;
     padding-left: 50px ;
 }
+
 .mission-box h2{
     font-size: 30px;
 }
+
 .right{
     margin: 150px 60px;
 }
@@ -102,25 +113,25 @@ span{
     background-repeat: no-repeat;
     background-size: 200px;
     background-position: 0px 190px;
-    
 }
 
 .bg img{
     width: 450px;
     margin-left: 40px;
 }
+
 .bg-right{
     background-image: url(images/shapes/shape-1.png)  ;
     background-repeat: no-repeat;
     background-size: 180px;
     background-position: 427px 40px;
-    
 }
+
 .bg-right img{
     width: 430px;
     margin-left: 40px;
 }
-/* 
+
 .skills-title{
     font-size: 60px;
 }
@@ -136,13 +147,16 @@ span{
     margin-left: 1rem;
     margin-right: 2rem;
 }
+
 .skills__subtitle{
     margin-bottom: 1rem;
     font-size: 50px;
 }
+
 .skills__text{
     margin-bottom: 2rem;
 }
+
 .skills__data{
     display: flex;
     justify-content: space-between;
@@ -156,18 +170,19 @@ span{
     border-width: 70%;
     box-shadow: 0 4px 25px rgba(14,36,49,.15);
 }
+
 .skills__icon{
     font-size: 2rem;
     margin-right: 1rem;
     color: #4070f4;
 }
+
 .skills__names{
     display: flex;
     align-items: center;
     border: none;
-
-
 }
+
 .skills__name, .skills__percentage{
     color: #4070f4;
 }
@@ -175,20 +190,19 @@ span{
 .skills__names img{
     color: #4070f4;
 
-} */
+}
 
 .skill-section{
     margin-bottom: 100px;
     margin-top: 0px;
 }
 
-.skill-img{
+.skill-img {
     width: 90%;
     margin-top: 170px;
     margin-left: 60px;
-    border-radius: 50px;
-    border
 }
+
 .skillset{
     display: block;
     justify-content: space-between;
